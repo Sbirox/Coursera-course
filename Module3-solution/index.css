@@ -1,3 +1,4 @@
+
 h3{
 	text-align: center;
 	padding: 10px;
@@ -16,11 +17,18 @@ h3{
 	overflow: hidden;
 	margin-top: 20px;
 	margin-bottom: 20px;
+
 }
 
+@media (max-width: 768px){
+	#paragraph{
+		width: 80%;
+		margin-left: 50px;
+	}
+}
 li{
 	font-size: 20px;
 	color: white;
-}
 
+}
 
